@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'bluetooth_page.dart';
 import 'splachscreen.dart';
 
 void main() {

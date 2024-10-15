@@ -86,14 +86,14 @@ class _BluetoothPageState extends State<BluetoothPage> {
         child: Column(
           children: [
             ListTile(
-              title: Text('Bluetooth Status: ${_bluetoothState.toString().split('.').last}',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold)),
+              title: Text('Bluetooth Status: ${_bluetoothState.toString().split('.').last}',style: const TextStyle(fontSize: 25,fontWeight: FontWeight.bold)),
             ),
             Expanded(
               child: ListView.builder(
                 itemCount: _devices.length,
                 itemBuilder: (context, index) {
                   return ListTile(
-                    title: Text(_devices[index].name ?? "Unknown Device",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                    title: Text(_devices[index].name ?? "Unknown Device",style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
                     onTap: () => _connectToDevice(_devices[index]),
                   );
                 },

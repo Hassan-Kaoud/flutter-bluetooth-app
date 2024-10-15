@@ -25,7 +25,7 @@ class ControlPage extends StatelessWidget {
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
         ),
         body: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             image: DecorationImage(
               image:
                   AssetImage("images/image2.png"), // Set the background image
@@ -82,7 +82,7 @@ class ControlPage extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             backgroundColor:
                 const Color.fromARGB(255, 8, 216, 15), // Background color
-            padding: EdgeInsets.symmetric(
+            padding: const EdgeInsets.symmetric(
                 horizontal: 20.0, vertical: 15.0), // Padding
             textStyle: const TextStyle(
               fontSize: 20, // Font size
