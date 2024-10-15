@@ -1,4 +1,4 @@
-# bluetooth_app
+# blutooth
 
 A new Flutter project.
 
